@@ -9,8 +9,9 @@ Static website for Aadhya Associates LLC: plain HTML, CSS and JavaScript, with n
 | `index.html` | Home |
 | `about.html` | About Us (mission, founder, approach) |
 | `services.html` | The five core services, with anchors `#strategy`, `#operations`, `#financial`, `#market`, `#startup` |
-| `success-stories.html` | Testimonials and case studies |
-| `insights.html` | Articles (blog) |
+| `how-we-engage.html` | Engagement process, engagement types and what clients receive |
+| `insights.html` | Article list |
+| `insights-*.html` | The three published articles |
 | `contact.html` | Contact form and details |
 | `privacy.html` | Privacy Policy |
 | `404.html` | Page-not-found |
@@ -28,19 +29,18 @@ Supporting files: `styles.css`, `script.js`, `favicon.svg`, `favicon-32.png`, `a
 
 Until this is done, the form tells visitors to email you instead.
 
-### 2. Replace the placeholders
+### 2. Adding proof later
 
-Placeholders appear on the site as **highlighted yellow text in [brackets]**. In the code, each one is wrapped in `<span class="ph">[ ... ]</span>`.
-
-To find them all, search the project for `class="ph"`. When you replace one with real content, remove the `<span class="ph">` wrapper as well.
-
-Don't publish any testimonial, client name or figure unless the client has approved it in writing.
+The site currently has no placeholders. When you have approved testimonials or case studies, add a Success Stories page, or a testimonial section on the home page, alongside "What to expect when you work with us". Only publish quotes and figures that clients have approved in writing.
 
 ### 3. Other items
 
-- Add the LinkedIn URL. Search for `LinkedIn` in the footer and on the About page.
-- Add the founder photo on the About page (a 4:5 portrait works best).
+- Optional: add a LinkedIn link in the footer's Connect column and a founder profile on the About page.
 - Have `privacy.html` reviewed by an attorney.
+
+## Updating CSS or JS
+
+When you change `styles.css` or `script.js`, bump the version number in each page's link (e.g. `styles.css?v=3` → `?v=4`) so returning visitors get the new file.
 
 ## Footer notice
 
