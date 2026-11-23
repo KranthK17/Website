@@ -1,6 +1,6 @@
 # aadhyaassociates.com
 
-Static website for Aadhya Associates LLC: plain HTML, CSS and JavaScript, with no build step.
+Static website for Aadhya Associates (Adyah Associates LLC): plain HTML, CSS and JavaScript, with no build step.
 
 ## Pages
 
@@ -44,4 +44,4 @@ When you change `styles.css` or `script.js`, bump the version number in each pag
 
 ## Footer notice
 
-Every page carries the footer "© Aadhya Associates LLC. All rights reserved." together with a notice that content may not be reproduced without written permission.
+Every page carries the footer "© Adyah Associates LLC, doing business as Aadhya Associates. All rights reserved." together with a notice that content may not be reproduced without written permission.
